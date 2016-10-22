@@ -1,0 +1,2 @@
+#(print-color "enabled")      ; for color PDF output
+#(image-color "enabled")      ; for color PNG output (enabled by default)

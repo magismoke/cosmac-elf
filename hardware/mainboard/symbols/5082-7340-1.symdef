@@ -1,0 +1,42 @@
+# options
+#--vmode
+#--compact
+#--square
+
+[labels]
+
+refdes=U?
+5082-7340
+Hex
+Display
+! copryright=2016 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=5082-7340
+! description=HP Hex Display
+! footprint=HP5082-7340
+
+[left]
+
+3 X8
+2 X4
+1 X2
+8 X1
+
+[right]
+
+7 VCC
+4 BLANKING
+
+#.skip 200
+
+[top]
+
+5 LATCH
+
+[bottom]
+
+6 GND
+
+[nc]

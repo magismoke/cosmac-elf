@@ -1,0 +1,80 @@
+# options
+#--vmode
+#--compact
+#--square
+
+[labels]
+
+refdes=U?
+CDP1802
+! copryright=2016 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=CDP1802
+! description=CPU
+! footprint=DIP40
+
+[left]
+
+17 N2
+18 N1
+19 N0
+
+21 \_EF4\_
+22 \_EF3\_
+23 \_EF2\_
+24 \_EF1\_
+38 \_DMA IN\_
+37 \_DMA OUT\_
+36 \_INTERRUPT\_
+
+16 VCC
+40 VDD
+
+4 Q
+
+[right]
+
+.bus
+32 A7
+31 A6
+30 A5
+29 A4
+28 A3
+27 A2
+26 A1
+25 A0
+
+8 D7
+9 D6
+10 D5
+11 D4
+
+#.skip 200
+
+12 D3
+13 D2
+14 D1
+15 D0
+
+[top]
+
+2 \_WAIT\_
+3 \_CLEAR\_
+6 SC0
+5 SC1
+34 TPA
+33 TPB
+7 \_MRD\_
+35 \_MWR\_
+
+[bottom]
+
+39 \_XTAL\_
+
+1 CLOCK
+
+20 VSS
+
+[nc]

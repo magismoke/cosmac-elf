@@ -1,0 +1,58 @@
+# options
+--vmode
+#--compact
+#--square
+
+[labels]
+
+refdes=U?
+2101
+! copryright=2016 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=2101
+! description=Static RAM
+! footprint=DIP22
+
+[left]
+
+.bus
+7 A7
+6 A6
+5 A5
+4 A0
+3 A1
+21 A4
+2 A2
+1 A3
+
+[right]
+
+22 VCC
+
+#.skip 200
+
+[top]
+
+20 R/W
+18 OD
+19 \_CE1\_
+8 GND
+17 CE2
+
+[bottom]
+
+15 DI4
+16 DO4
+
+13 DI3
+14 DO3
+
+11 DI2
+12 DO2
+
+9 DI1
+10 DO1
+
+[nc]

@@ -1,0 +1,48 @@
+# options
+#--vmode
+#--compact
+#--square
+
+[labels]
+
+refdes=U?
+4016
+! copryright=2016 Atommann
+! author=Atommann
+! uselicense=unlimited
+! distlicense=GPL
+! device=4016
+! description=quad bilateral switch
+! footprint=DIP14
+
+[left]
+
+13 CTL A
+1 I/O A
+5 CTL B
+4 I/O B
+6 CTL C
+8 I/O C
+12 CTL D
+11 I/O D
+
+[right]
+
+.skip 400
+2 O/I A
+.skip 400
+3 O/I B
+.skip 400
+9 O/I C
+.skip 400
+10 O/I D
+
+
+[top]
+
+14 VDD
+7 GND
+
+[bottom]
+
+[nc]
