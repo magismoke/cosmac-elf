@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 8000.00mil 8000.00mil]
 
-Grid[1000.000000 0.0000 0.0000 1]
+Grid[1000.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[9.00mil 10.00mil 10.00mil 10.00mil 20.00mil 10.00mil]
@@ -1261,58 +1261,6 @@ Element["" "RES_1016P-630L-240D" "R9" "47K" 2390.00mil 4330.00mil 60.00mil -30.0
 
 	)
 
-Element["" "DIP14" "U12" "unknown" 1700.00mil 2530.00mil -50.00mil 60.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Q" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Q" "2" "edge2"]
-	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "3" "edge2,thermal(4X)"]
-	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "CLR" "4" "edge2,thermal(4X)"]
-	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "D" "5" "edge2,thermal(4X)"]
-	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "PRE" "6" "edge2,thermal(4X)"]
-	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Vss" "7" "edge2,thermal(4X)"]
-	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "PRE" "8" "edge2,thermal(4X)"]
-	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "D" "9" "edge2"]
-	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLR" "10" "edge2"]
-	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "11" "edge2"]
-	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Q" "12" "edge2"]
-	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Q" "13" "edge2"]
-	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Vdd" "14" "edge2"]
-	ElementLine [-50.00mil 50.00mil 650.00mil 50.00mil 10.00mil]
-	ElementLine [650.00mil -350.00mil 650.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil 650.00mil -350.00mil 10.00mil]
-	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
-	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90 180 10.00mil]
-
-	)
-
-Element["" "DIP16" "U11" "unknown" 1700.00mil 4030.00mil -50.00mil 60.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Vdd" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "2" "edge2"]
-	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "3" "edge2"]
-	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "4" "edge2"]
-	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "5" "edge2"]
-	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "6" "edge2"]
-	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "7" "edge2"]
-	Pin[700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Vss" "8" "edge2,thermal(4X)"]
-	Pin[700.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "9" "edge2"]
-	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "10" "edge2"]
-	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "11" "edge2"]
-	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "12" "edge2"]
-	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" "edge2"]
-	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "14" "edge2"]
-	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "15" "edge2"]
-	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" "edge2"]
-	ElementLine [-50.00mil 50.00mil 750.00mil 50.00mil 10.00mil]
-	ElementLine [750.00mil -350.00mil 750.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil 750.00mil -350.00mil 10.00mil]
-	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
-	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90 180 10.00mil]
-
-	)
-
 Element["" "DIP16" "U5" "unknown" 4000.00mil 3330.00mil -40.00mil -430.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Vdd" "1" "square,edge2"]
@@ -1873,6 +1821,58 @@ Element["" "RES_1016P-630L-240D" "R6" "47K" 4600.00mil 1630.00mil -80.00mil -180
 	ElementLine [-47.50mil -124.00mil -47.50mil 124.00mil 10.00mil]
 	ElementLine [0.0000 -154.00mil 0.0000 -124.00mil 10.00mil]
 	ElementLine [0.0000 124.00mil 0.0000 154.00mil 10.00mil]
+
+	)
+
+Element["" "DIP14" "U12" "unknown" 1700.00mil 2530.00mil -50.00mil 60.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Q" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Q" "2" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "3" "edge2,thermal(4X)"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "CLR" "4" "edge2,thermal(4X)"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "D" "5" "edge2,thermal(4X)"]
+	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "PRE" "6" "edge2,thermal(4X)"]
+	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Vss" "7" "edge2,thermal(4X)"]
+	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "PRE" "8" "edge2,thermal(4X)"]
+	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "D" "9" "edge2"]
+	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLR" "10" "edge2"]
+	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "CLK" "11" "edge2"]
+	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Q" "12" "edge2"]
+	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Q" "13" "edge2"]
+	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Vdd" "14" "edge2"]
+	ElementLine [-50.00mil 50.00mil 650.00mil 50.00mil 10.00mil]
+	ElementLine [650.00mil -350.00mil 650.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil 650.00mil -350.00mil 10.00mil]
+	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
+	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90 180 10.00mil]
+
+	)
+
+Element["" "DIP16" "U11" "unknown" 1700.00mil 4030.00mil -50.00mil 60.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "2" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "3" "edge2"]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "4" "edge2"]
+	Pin[400.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "5" "edge2"]
+	Pin[500.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "Y" "6" "edge2"]
+	Pin[600.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "A" "7" "edge2"]
+	Pin[700.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" "edge2,thermal(4X)"]
+	Pin[700.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "9" "edge2"]
+	Pin[600.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "10" "edge2"]
+	Pin[500.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "11" "edge2"]
+	Pin[400.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "12" "edge2"]
+	Pin[300.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" "edge2"]
+	Pin[200.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "A" "14" "edge2"]
+	Pin[100.00mil -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "Y" "15" "edge2"]
+	Pin[0.0000 -300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" "edge2"]
+	ElementLine [-50.00mil 50.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [750.00mil -350.00mil 750.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil 750.00mil -350.00mil 10.00mil]
+	ElementLine [-50.00mil -100.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -350.00mil -50.00mil -200.00mil 10.00mil]
+	ElementArc [-50.00mil -150.00mil 50.00mil 50.00mil 90 180 10.00mil]
 
 	)
 Layer(1 "top")
@@ -2931,11 +2931,16 @@ NetList()
 		Connect("U2-22")
 		Connect("U3-17")
 		Connect("U3-22")
+		Connect("U4-1")
+		Connect("U5-1")
 		Connect("U6-7")
 		Connect("U7-7")
 		Connect("U8-14")
 		Connect("U9-14")
+		Connect("U10-14")
+		Connect("U11-1")
 		Connect("U12-9")
+		Connect("U12-14")
 		Connect("U13-3")
 	)
 	Net("\\_DMA_IN\\_" "(unknown)")
@@ -3156,17 +3161,22 @@ NetList()
 		Connect("U3-8")
 		Connect("U3-19")
 		Connect("U4-7")
+		Connect("U4-8")
 		Connect("U5-7")
+		Connect("U5-8")
 		Connect("U6-4")
 		Connect("U6-6")
 		Connect("U7-4")
 		Connect("U7-6")
 		Connect("U8-7")
 		Connect("U9-7")
+		Connect("U10-7")
+		Connect("U11-8")
 		Connect("U12-3")
 		Connect("U12-4")
 		Connect("U12-5")
 		Connect("U12-6")
+		Connect("U12-7")
 		Connect("U12-8")
 		Connect("U13-2")
 	)
@@ -3331,33 +3341,38 @@ NetList()
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("U10-6")
-		Connect("U10-8")
+		Connect("C1-1")
+		Connect("C15-1")
+		Connect("D7-1")
+		Connect("U13-1")
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("U4-14")
-		Connect("U10-9")
+		Connect("D1-1")
+		Connect("D2-1")
+		Connect("R9-1")
+		Connect("U12-10")
 	)
 	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("U10-10")
-		Connect("U11-3")
+		Connect("U4-10")
+		Connect("U6-1")
 	)
 	Net("unnamed_net10" "(unknown)")
-	(
-		Connect("U4-2")
-		Connect("U6-3")
-	)
-	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("U4-4")
 		Connect("U6-2")
 	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("U4-2")
+		Connect("U6-3")
+	)
 	Net("unnamed_net12" "(unknown)")
 	(
-		Connect("U4-10")
-		Connect("U6-1")
+		Connect("U4-15")
+		Connect("U6-5")
+		Connect("U7-5")
 	)
 	Net("unnamed_net13" "(unknown)")
 	(
@@ -3366,8 +3381,8 @@ NetList()
 	)
 	Net("unnamed_net14" "(unknown)")
 	(
-		Connect("U5-2")
-		Connect("U7-3")
+		Connect("U5-10")
+		Connect("U7-1")
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
@@ -3376,8 +3391,8 @@ NetList()
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
-		Connect("U5-10")
-		Connect("U7-1")
+		Connect("U5-2")
+		Connect("U7-3")
 	)
 	Net("unnamed_net17" "(unknown)")
 	(
@@ -3386,48 +3401,27 @@ NetList()
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("U4-15")
-		Connect("U6-5")
-		Connect("U7-5")
+		Connect("CONN1-1")
+		Connect("D7-2")
 	)
 	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("C1-1")
-		Connect("C15-1")
-		Connect("D7-1")
-		Connect("U13-1")
-	)
-	Net("unnamed_net20" "(unknown)")
-	(
-		Connect("D1-1")
-		Connect("D2-1")
-		Connect("R9-1")
-		Connect("U12-10")
-	)
-	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("D6-1")
 		Connect("U12-12")
 	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("U10-6")
+		Connect("U10-8")
+	)
+	Net("unnamed_net21" "(unknown)")
+	(
+		Connect("U4-14")
+		Connect("U10-9")
+	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("CONN1-1")
-		Connect("D7-2")
-	)
-	Net("VDD" "(unknown)")
-	(
-		Connect("U4-1")
-		Connect("U5-1")
-		Connect("U10-14")
-		Connect("U11-1")
-		Connect("U12-14")
-	)
-	Net("VSS" "(unknown)")
-	(
-		Connect("U4-8")
-		Connect("U5-8")
-		Connect("U10-7")
-		Connect("U11-8")
-		Connect("U12-7")
+		Connect("U10-10")
+		Connect("U11-3")
 	)
 )
